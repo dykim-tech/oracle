@@ -24,7 +24,7 @@ sudo su - oracle
 # 스크립트 폴더로 이동 후 실행
 cd /path/to/oracle-testdb
 chmod +x run_all.sh
-./run_all.sh
+bash ./run_all.sh
 ```
 
 ### 방법 2: 단계별 실행
@@ -36,7 +36,7 @@ sudo su - oracle
 sqlplus / as sysdba @01-create-user.sql
 
 # 2) 이후 단계는 비밀번호를 안전하게 입력받는 run_all.sh 사용 권장
-./run_all.sh
+bash ./run_all.sh
 
 # 직접 실행할 때는 명령줄에 비밀번호를 남기지 않도록 주의하세요.
 ```
