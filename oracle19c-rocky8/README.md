@@ -86,17 +86,17 @@ vi config.env
 
 **4) 실행**
 ```bash
-sudo ./install.sh
+sudo bash ./install.sh
 ```
 
 ## 부분 실행 옵션
 
 ```bash
-sudo ./install.sh --list              # 실행 가능한 단계 목록
-sudo ./install.sh --dry-run           # 실제 실행 없이 순서만 확인
-sudo ./install.sh --step 03           # 특정 단계만 실행
-sudo ./install.sh --from 06           # 특정 단계부터 끝까지
-sudo ./install.sh --yes               # 확인 프롬프트 자동 승인
+sudo bash ./install.sh --list              # 실행 가능한 단계 목록
+sudo bash ./install.sh --dry-run           # 실제 실행 없이 순서만 확인
+sudo bash ./install.sh --step 03           # 특정 단계만 실행
+sudo bash ./install.sh --from 06           # 특정 단계부터 끝까지
+sudo bash ./install.sh --yes               # 확인 프롬프트 자동 승인
 ```
 
 ## config.env 주요 옵션
@@ -118,7 +118,7 @@ sudo ./install.sh --yes               # 확인 프롬프트 자동 승인
 ## 롤백
 
 ```bash
-sudo ./uninstall.sh
+sudo bash ./uninstall.sh
 ```
 
 ## 주의사항
