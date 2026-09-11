@@ -1,0 +1,14 @@
+# Oracle이 배포하는 설치 바이너리와 패치는 저장소에 커밋하지 않습니다.
+*.zip
+*.rpm
+*.tar.gz
+
+# 로컬 비밀정보와 실행 산출물
+.env
+*.local.env
+*.log
+__pycache__/
+*.pyc
+
+# 테스트 실행 시 생성되는 SQL
+oracle-testdb/03-insert-data.sql
